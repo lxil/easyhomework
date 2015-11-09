@@ -105,7 +105,7 @@ public class HttpUtils {
 
 		@Override
 		public void run() {
-			// TODO Auto-generated method stub
+			// TODO Auto-generated 
 			try {
 				HttpGet httpGet = new HttpGet("http://www.baidu.com");
 				HttpResponse response = httpclient.execute(httpGet);
